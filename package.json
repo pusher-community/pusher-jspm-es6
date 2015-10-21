@@ -1,0 +1,27 @@
+{
+  "name": "pusher-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.13"
+  },
+  "jspm": {
+    "dependencies": {
+      "handlebars": "github:components/handlebars.js@^4.0.3",
+      "jquery": "github:components/jquery@^2.1.4",
+      "pusher-js": "npm:pusher-js@^3.0.0",
+      "text": "github:systemjs/plugin-text@^0.0.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
