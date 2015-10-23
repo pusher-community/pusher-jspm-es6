@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "html-dist": "^0.1.0",
     "jspm": "^0.16.13"
   },
   "jspm": {
